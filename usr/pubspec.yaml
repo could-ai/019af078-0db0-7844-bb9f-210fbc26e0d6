@@ -9,12 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   
   # Routing
   go_router: ^13.2.0
   
-  # SEO
-  seo: ^0.3.0
+  # SEO - Using seo_renderer for DOM injection
+  seo_renderer: ^0.6.1
   
   # Utilities
   url_strategy: ^0.2.0
