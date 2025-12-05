@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="CouldAI - Professional AI Solutions and Single Page Application built with Flutter.">
+  <meta name="keywords" content="AI, Flutter, SPA, SEO, Web App, Artificial Intelligence">
+  <meta name="author" content="CouldAI Team">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://couldai.com/">
+  <meta property="og:title" content="CouldAI - Professional AI Solutions">
+  <meta property="og:description" content="Professional AI Solutions and Single Page Application built with Flutter.">
+  <meta property="og:image" content="icons/Icon-192.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://couldai.com/">
+  <meta property="twitter:title" content="CouldAI - Professional AI Solutions">
+  <meta property="twitter:description" content="Professional AI Solutions and Single Page Application built with Flutter.">
+  <meta property="twitter:image" content="icons/Icon-192.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -29,8 +34,14 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>couldai_user_app</title>
+  <title>CouldAI - Professional AI Solutions</title>
   <link rel="manifest" href="manifest.json">
+  
+  <!-- SEO Renderer Script (Optional but good for some crawlers) -->
+  <script>
+    // This helper can be used if you want to manually signal when the app is ready
+    window.flutterWebRenderer = "html";
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
